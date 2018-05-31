@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './ChatScreen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -6,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: _title(),
-      home: _home(),
+      home: new ChatScreen(),
       theme: _theme()
     );
   }
@@ -15,11 +16,6 @@ class MyApp extends StatelessWidget {
     return 'SampleChat';
   }
 
-  Scaffold _home() {
-    return new Scaffold(
-      appBar: new AppBar(title: new Text(_title())),
-    );
-  }
 
   ThemeData _theme() {
     return new ThemeData(primarySwatch: Colors.blue);
