@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: _title(),
-      home: new ChatScreen(),
+      home: new ChatScreen()
     );
   }
 
