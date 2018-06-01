@@ -8,7 +8,6 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: _title(),
       home: new ChatScreen(),
-      theme: _theme()
     );
   }
 
@@ -16,10 +15,6 @@ class MyApp extends StatelessWidget {
     return 'SampleChat';
   }
 
-
-  ThemeData _theme() {
-    return new ThemeData(primarySwatch: Colors.blue);
-  }
   
   // This widget is the root of your application.
   // @override
