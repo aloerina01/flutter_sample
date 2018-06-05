@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './ChatScreen.dart';
+import './FirstScreen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: _title(),
-      home: new ChatScreen()
+      home: new FirstScreen()
     );
   }
 
